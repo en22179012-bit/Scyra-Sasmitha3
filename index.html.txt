@@ -1,0 +1,102 @@
+!DOCTYPE html
+html lang=en
+head
+meta charset=UTF-8
+meta name=viewport content=width=device-width, initial-scale=1.0
+titleScyra AItitle
+
+script src=httpscdn.tailwindcss.comscript
+
+style
+html{scroll-behaviorsmooth;}
+style
+head
+
+body class=bg-white text-slate-900
+
+!-- NAVBAR --
+nav class=fixed top-0 left-0 right-0 bg-white90 backdrop-blur shadow-sm z-50
+  div class=max-w-7xl mx-auto px-6 h-16 flex items-center justify-between
+    div class=flex items-center space-x-2
+      div class=w-8 h-8 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lgdiv
+      span class=font-semibold text-lgScyra AIspan
+    div
+    div class=space-x-6 hidden mdblock
+      a href=#about class=text-slate-600 hovertext-cyan-600Abouta
+      a href=#services class=text-slate-600 hovertext-cyan-600Servicesa
+      a href=#vision class=text-slate-600 hovertext-cyan-600Visiona
+      a href=#contact class=px-4 py-2 bg-slate-900 text-white rounded-fullContacta
+    div
+  div
+nav
+
+!-- HERO --
+section class=pt-32 pb-20
+  div class=max-w-7xl mx-auto px-6 grid lggrid-cols-2 gap-12 items-center
+    div
+      h1 class=text-5xl lgtext-7xl font-bold leading-tight
+        Intelligence thatbr
+        span class=bg-gradient-to-r from-cyan-600 to-blue-600 text-transparent bg-clip-text
+          transforms reality
+        span
+      h1
+      p class=mt-6 text-lg text-slate-600 max-w-lg
+        Scyra AI develops precision-engineered artificial intelligence systems
+        that solve real-world problems using intelligent automation.
+      p
+      div class=mt-8 flex gap-4
+        a href=#services class=px-6 py-3 bg-slate-900 text-white rounded-fullExplorea
+        a href=#contact class=px-6 py-3 border rounded-fullContacta
+      div
+    div
+    div class=w-full h-80 bg-gradient-to-br from-cyan-50 to-blue-50 rounded-3xldiv
+  div
+section
+
+!-- ABOUT --
+section id=about class=py-20 bg-slate-50
+  div class=max-w-4xl mx-auto text-center px-6
+    h2 class=text-3xl font-bold mb-6About Scyra AIh2
+    p class=text-slate-600
+      We are a research-driven AI company building intelligent systems that bridge
+      innovation and real-world deployment.
+    p
+  div
+section
+
+!-- SERVICES --
+section id=services class=py-24
+  div class=max-w-7xl mx-auto px-6
+    h2 class=text-3xl font-bold text-center mb-12What We Doh2
+    div class=grid mdgrid-cols-2 lggrid-cols-4 gap-8
+      div class=p-6 border rounded-2xlAI & Machine Learningdiv
+      div class=p-6 border rounded-2xlAutomation Systemsdiv
+      div class=p-6 border rounded-2xlComputer Visiondiv
+      div class=p-6 border rounded-2xlAI Researchdiv
+    div
+  div
+section
+
+!-- VISION --
+section id=vision class=py-24 bg-slate-50
+  div class=max-w-4xl mx-auto text-center px-6
+    h2 class=text-4xl font-bold mb-6
+      Shaping the future responsibly through intelligent systems
+    h2
+  div
+section
+
+!-- CONTACT --
+section id=contact class=py-24 bg-slate-900 text-white text-center
+  h2 class=text-4xl font-bold mb-4Let's Build the Futureh2
+  p class=text-slate-400 mb-8Partner with Scyra AIp
+  button class=px-6 py-3 bg-white text-slate-900 rounded-fullStart Conversationbutton
+section
+
+!-- FOOTER --
+footer class=py-10 border-t text-center text-slate-500
+  © 2024 Scyra AI
+footer
+
+body
+html
